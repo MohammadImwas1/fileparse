@@ -1,5 +1,5 @@
 public class XMLParse implements parse {
-    public void parser(String path) {
-        
+    public void parser(String inputFilePath, String outputFilePath) {
+
     }
 }
