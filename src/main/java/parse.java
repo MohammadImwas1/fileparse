@@ -1,3 +1,4 @@
+
 public interface parse {
-    public void parser(String path);
+    void parser(String inputFilePath, String outputFilePath);
 }

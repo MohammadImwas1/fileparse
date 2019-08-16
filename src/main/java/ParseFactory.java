@@ -1,5 +1,5 @@
 public class ParseFactory {
-    public parse getParse(ParserType type){
+    public static parse getParse(ParserType type){
         if (type == ParserType.JSON){
             return new JSONParse();
         }
